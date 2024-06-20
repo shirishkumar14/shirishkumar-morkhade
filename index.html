@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shirishkumar Morkhade</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Shirish Morkhade</h1>
+
+          <p class="title">ThingWorx & Windchill Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:shirishkumar14@gmail.com" class="contact-link">shirishkumar14@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="whatsapp://send?text=Hello%20Shirish!" class="contact-link">+91 (976) 692-9745</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 05<sup>th</sup></time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dighi, Pune, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list"">
+		  
+		  <li >
+            <a href="https://www.facebook.com/shirishkumar14/" target="_blank" rel="noopener noreferrer" ><img src="./assets/images/facebook-social-logo.jpg" width="18" height="18" title="Facebook" ></a>
+          </li>
+		  
+		  <li >
+            <a href="https://www.linkedin.com/in/shirishkumar14/" target="_blank" rel="noopener noreferrer" ><img src="./assets/images/linkedin-social-logo.png" width="18" height="18" title="LinkedIn" ></a>
+          </li>
+		  
+		  <li >
+            <a href="https://community.ptc.com/t5/user/viewprofilepage/user-id/238755" target="_blank" rel="noopener noreferrer" ><img src="./assets/images/ptc-social-logo.jpg" width="20" height="20" title="PTC Community" ></a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certs</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p align="justify">
+             My name is Shirishkumar Morkhade, and I enjoy visiting new places, meeting new people and finding ways to help them have an uplifting experience. I have had a variety of customer service opportunities, through which I was able to have fewer returned products and increased repeat customers, when compared with co-workers. I am dedicated, outgoing, and a team player.
+		  </p>
+		  
+		  <p align="justify">
+			 People find me to be an upbeat, self-motivated team player. For the past several years I have worked in leading Product Based company as customer facing organization in the technology industry. My experience includes successfully calling users/administrator, troubleshoot product issues, guide on best practices, help with customization approach, etc. I have a track record of maintaining a consistent call and activity volume and consistently achieving the top.
+		  </p>
+		  
+		  <p align="justify">
+			 I am a dedicated person with a family of four. I enjoy riding bike, and driving car (specially at night). I have been successful at raising a family, and I attribute this success to my ability to plan, schedule, and handle many different tasks at once.
+          </p>
+
+          <p align="justify">
+            Some text goes here...
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/TWX-Logo.png" alt="ThingWorx Developer" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ThingWorx Developer</h4>
+
+                <p class="service-item-text">
+                  Seasoned IIoT 4.0 and connected ThingWorx application developer.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Windchill_logo.png" alt="PTC Windchill Developer" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Windchill Developer</h4>
+
+                <p class="service-item-text">
+                  PTC Windchill Customization Developer.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/coder.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Developer</h4>
+
+                <p class="service-item-text">
+                  Professional web developer.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Amit Dey" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Dey</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shirish is one of the most valuable person I have ever met. Both smart and professional. Experienced, deadline oriented and intelligent person. Highly recommended.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Bin Wu" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Bin Wu</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I knew Shirish 5 years ago when he worked in PTC as customization tech support. He displayed great talents in Windchill customization. When the first time he supported me, I was immediately impressed with his knowledge.
+					It’s not just his technical skills that impress me, however. Shirish was a joy to work with because of his amazingly positive attitude.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Casey Swain" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Casey Swain</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I worked with Shirish to develop some custom code for one of our Windchill processes. It was very productive collaboration that rapidly resulted in an improved process for our business. I would be happy to work with Shirish on future development projects.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Jalpesh Dadania" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jalpesh Dadania</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I know Shirish Morkhade as a hard working and very serious team player.Shirsh is proactive, result oriented, responsible and technically sound employee. He is very strong in Windchill Customization, Java. is a great asset to any company.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+			
+			<li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Cato Flowers" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cato Flowers</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Having worked with Shirish for several years, I have appreciated his aptitude in enterprise java and his critical thinking when it comes time to tackle the most difficult issues for the most demanding customers. It was a pleasure to work with Shirish.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+			
+			<li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Kapil Kharade" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kapil Kharade</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shirish is the guy with whom i had completed my post graduation. During that period i found Shirsh as very hard working and his intrest towards programming languages & new trends is noticable. I wish him all the best for his future endeavours.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">Updated as on 14 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Employers</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.ptc.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/ptc-logo.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.hcltech.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/hcl-logo.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.virtusa.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/virtusa-logo.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.capgemini.com/us-en/about-us/who-we-are/our-brands/capgemini-engineering/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/capgemini-engineering.gif" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Pune</h4>
+
+              <span>July 2008 — June 2011</span>
+
+              <p class="timeline-text">
+                Masters in Computer Application.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Amaravati</h4>
+
+              <span>July 2005 — June 2008</span>
+
+              <p class="timeline-text">
+                Bachelors in Computer Science.
+              </p>
+
+            </li>
+			
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Capgemini Engineering</h4>
+
+              <span>Jan 2021 — Present</span>
+
+              <p class="timeline-text">
+                Senior Consultant/Architect.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Virtusa Consulting Services</h4>
+
+              <span>Dec 2019 — Dec 2020</span>
+
+              <p class="timeline-text">
+                Lead ThingWorx Developer
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HCL Technologies</h4>
+
+              <span>May 2019 — Nov 2019</span>
+
+              <p class="timeline-text">
+                Senior Technical Lead.
+              </p>
+
+            </li>
+			
+			<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PTC Software (India) Pvt. Ltd.</h4>
+
+              <span>Mar 2012 — May 2019</span>
+
+              <p class="timeline-text">
+                Senior Product Technology Lead.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Key skills</h3>
+
+          <ul class="skills-list content-card">
+		  
+			<li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PTC ThingWorx</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PTC Windchill</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="awards" data-page="awards">
+
+        <header>
+          <h2 class="h2 article-title">Awards</h2>
+        </header>
+
+        <section class="projects">
+			<!-- 
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+		  -->
+		  
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.linkedin.com/posts/shirishkumar14_recognisation-activity-7035984232573210624-Zdmi?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Capgemini-Award.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Outstanding Contribution</h3>
+
+                <p class="project-category">Outstanding Contribution in Delivery</p>
+
+              </a>
+            </li>
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="certs" data-page="certs">
+
+        <header>
+          <h2 class="h2 article-title">Certs</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/posts/shirishkumar14_connected-manager-certificate-activity-7176136191669379072-5bwK?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ConnectedManager.png" alt="Connected Manager" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Program</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 11, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Connected Manager</h3>
+
+                  <p class="blog-text">
+                    "Connected Manager" program offered by Harvard Business Review & Capgemini University.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.9517008435428!2d73.87539067386216!3d18.621242066093973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c7062d96386f%3A0x29c3bbc00f717685!2sPolite%20Panorama%20Co-Op%20Housing%20Society%20Ltd%2C%20Dighi%2C%20Pune!5e0!3m2!1sen!2sin!4v1718796329463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" enabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
